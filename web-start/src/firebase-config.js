@@ -8,6 +8,17 @@
  */
 const config = {
   /* TODO: ADD YOUR FIREBASE CONFIGURATION OBJECT HERE */
+    apiKey: "AIzaSyDxFhEczN12nKQB_BagEie0Wbs_Y1MpDPM",
+
+    authDomain: "friendlychat-e7203.firebaseapp.com",
+
+    projectId: "friendlychat-e7203",
+
+    storageBucket: "friendlychat-e7203.appspot.com",
+
+    messagingSenderId: "314757998911",
+
+    appId: "1:314757998911:web:031c6736a4d222aa7b0b8a"
 };
 
 export function getFirebaseConfig() {
@@ -18,3 +29,35 @@ export function getFirebaseConfig() {
     return config;
   }
 }
+
+import { initializeApp } from "firebase/app";
+
+// const initializeApp = require("https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js");
+
+  // TODO: Add SDKs for Firebase products that you want to use
+
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+
+  // Your web app's Firebase configuration
+
+  const firebaseConfig = {
+
+    apiKey: "AIzaSyDxFhEczN12nKQB_BagEie0Wbs_Y1MpDPM",
+
+    authDomain: "friendlychat-e7203.firebaseapp.com",
+
+    projectId: "friendlychat-e7203",
+
+    storageBucket: "friendlychat-e7203.appspot.com",
+
+    messagingSenderId: "314757998911",
+
+    appId: "1:314757998911:web:031c6736a4d222aa7b0b8a"
+
+  };
+
+
+  // Initialize Firebase
+
+  const app = initializeApp(firebaseConfig);
